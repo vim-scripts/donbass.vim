@@ -1,8 +1,8 @@
 " Vim color file
 " Name:         donbass.vim
 " Description:  Light color scheme for 256-color terminals and GUI
-" Version:      0.1
-" Last Change:  06 Aug 2009
+" Version:      0.2
+" Last Change:  08 Aug 2009
 " Maintainer:   Dmitry Maluka <dmitrymaluka@gmail.com>
 " License:      Public Domain
 "
@@ -50,10 +50,10 @@ hi TabLineSel    ctermfg=16   guifg=#000000  ctermbg=248  guibg=#a8a8a8  cterm=b
 hi WildMenu      ctermfg=250  guifg=#bcbcbc  ctermbg=236  guibg=#303030  cterm=bold  gui=bold
 hi Folded        ctermfg=fg   guifg=fg       ctermbg=250  guibg=#bcbcbc  cterm=none  gui=none
 hi FoldColumn    ctermfg=124  guifg=#af0000  ctermbg=250  guibg=#bcbcbc  cterm=bold  gui=bold
-hi Pmenu         ctermfg=16   guifg=#000000  ctermbg=138  guibg=#af8787  cterm=none  gui=none
-hi PmenuSel      ctermfg=16   guifg=#000000  ctermbg=95   guibg=#875f5f  cterm=none  gui=none
-hi PmenuSbar     ctermfg=fg   guifg=fg       ctermbg=66   guibg=#5f8787  cterm=none  gui=none
-hi PmenuThumb    ctermfg=bg   guifg=bg       ctermbg=173  guibg=#df875f  cterm=none  gui=none
+hi Pmenu         ctermfg=16   guifg=#000000  ctermbg=248  guibg=#a8a8a8  cterm=none  gui=none
+hi PmenuSel      ctermfg=16   guifg=#000000  ctermbg=244  guibg=#808080  cterm=none  gui=none
+hi PmenuSbar     ctermfg=fg   guifg=fg       ctermbg=244  guibg=#808080  cterm=none  gui=none
+hi PmenuThumb    ctermfg=251  guifg=#c6c6c6  ctermbg=bg   guibg=bg       cterm=none  gui=none
 hi LineNr        ctermfg=238  guifg=#444444  ctermbg=bg   guibg=bg       cterm=none  gui=none
 hi NonText       ctermfg=238  guifg=#444444  ctermbg=bg   guibg=bg       cterm=bold  gui=bold
 hi SpecialKey    ctermfg=239  guifg=#4e4e4e  ctermbg=250  guibg=#bcbcbc  cterm=bold  gui=bold
@@ -76,6 +76,7 @@ hi Comment       ctermfg=241  guifg=#606060  ctermbg=bg   guibg=bg       cterm=n
 hi Todo          ctermfg=254  guifg=#e4e4e4  ctermbg=166  guibg=#df5f00  cterm=none  gui=none
 hi Underlined    ctermfg=125  guifg=#af005f  ctermbg=bg   guibg=bg  cterm=underline  gui=underline
 hi Error         ctermfg=196  guifg=#ff0000  ctermbg=bg   guibg=bg       cterm=bold  gui=bold
+hi cPreCondit    ctermfg=131  guifg=#af5f5f  ctermbg=bg   guibg=bg       cterm=bold  gui=bold
 hi diffRemoved   ctermfg=131  guifg=#af5f5f  ctermbg=bg   guibg=bg       cterm=bold  gui=bold
 hi diffAdded     ctermfg=28   guifg=#008700  ctermbg=bg   guibg=bg       cterm=bold  gui=bold
 hi diffChanged   ctermfg=130  guifg=#af5f00  ctermbg=bg   guibg=bg       cterm=bold  gui=bold
