@@ -1,8 +1,8 @@
 " Vim color file
 " Name:         donbass.vim
 " Description:  Light color scheme for 256-color terminals and GUI
-" Version:      0.2
-" Last Change:  08 Aug 2009
+" Version:      0.3
+" Last Change:  10 Aug 2009
 " Maintainer:   Dmitry Maluka <dmitrymaluka@gmail.com>
 " License:      Public Domain
 "
@@ -30,7 +30,7 @@ endif
 let g:colors_name = "donbass"
 
 " General
-hi Normal        ctermfg=235  guifg=#262626  ctermbg=252  guibg=#d0d0d0  cterm=none  gui=none
+hi Normal        ctermfg=232  guifg=#080808  ctermbg=252  guibg=#d0d0d0  cterm=none  gui=none
 hi Visual        ctermfg=16   guifg=#000000  ctermbg=74   guibg=#5fafdf  cterm=none  gui=none
 hi VisualNOS     ctermfg=52   guifg=#5f0000  ctermbg=137  guibg=#af875f  cterm=none  gui=none
 hi Search        ctermfg=253  guifg=#dadada  ctermbg=25   guibg=#005faf  cterm=none  gui=none
