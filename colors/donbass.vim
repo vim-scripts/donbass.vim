@@ -1,8 +1,8 @@
 " Vim color file
 " Name:         donbass.vim
 " Description:  Light color scheme for 256-color terminals and GUI
-" Version:      0.3
-" Last Change:  10 Aug 2009
+" Version:      0.4
+" Last Change:  11 Aug 2009
 " Maintainer:   Dmitry Maluka <dmitrymaluka@gmail.com>
 " License:      Public Domain
 "
@@ -47,7 +47,7 @@ hi VertSplit     ctermfg=16   guifg=#000000  ctermbg=248  guibg=#a8a8a8  cterm=n
 hi TabLine       ctermfg=16   guifg=#000000  ctermbg=248  guibg=#a8a8a8  cterm=none  gui=none
 hi TabLineFill   ctermfg=16   guifg=#000000  ctermbg=248  guibg=#a8a8a8  cterm=none  gui=none
 hi TabLineSel    ctermfg=16   guifg=#000000  ctermbg=248  guibg=#a8a8a8  cterm=bold  gui=bold
-hi WildMenu      ctermfg=250  guifg=#bcbcbc  ctermbg=236  guibg=#303030  cterm=bold  gui=bold
+hi WildMenu      ctermfg=250  guifg=#bcbcbc  ctermbg=236  guibg=#303030  cterm=none  gui=none
 hi Folded        ctermfg=fg   guifg=fg       ctermbg=250  guibg=#bcbcbc  cterm=none  gui=none
 hi FoldColumn    ctermfg=124  guifg=#af0000  ctermbg=250  guibg=#bcbcbc  cterm=bold  gui=bold
 hi Pmenu         ctermfg=16   guifg=#000000  ctermbg=248  guibg=#a8a8a8  cterm=none  gui=none
@@ -63,6 +63,10 @@ hi DiffAdd       ctermfg=fg   guifg=fg       ctermbg=71   guibg=#5faf5f  cterm=n
 hi DiffDelete    ctermfg=fg   guifg=fg       ctermbg=102  guibg=#878787  cterm=none  gui=none
 hi DiffChange    ctermfg=fg   guifg=fg       ctermbg=167  guibg=#df5f5f  cterm=none  gui=none
 hi DiffText      ctermfg=fg   guifg=fg       ctermbg=180  guibg=#dfaf87  cterm=none  gui=none
+hi SpellBad      ctermfg=124  guifg=#af0000  ctermbg=bg   guibg=bg  cterm=underline  gui=underline
+hi SpellCap      ctermfg=22   guifg=#005f00  ctermbg=bg   guibg=bg  cterm=underline  gui=underline
+hi SpellLocal    ctermfg=21   guifg=#0000ff  ctermbg=bg   guibg=bg  cterm=underline  gui=underline
+hi SpellRare     ctermfg=92   guifg=#8700df  ctermbg=bg   guibg=bg  cterm=underline  gui=underline
 
 " Syntax
 hi Identifier    ctermfg=52   guifg=#5f0000  ctermbg=bg   guibg=bg       cterm=none  gui=none
@@ -74,7 +78,7 @@ hi Special       ctermfg=131  guifg=#af5f5f  ctermbg=bg   guibg=bg       cterm=b
 hi PreProc       ctermfg=29   guifg=#00875f  ctermbg=bg   guibg=bg       cterm=bold  gui=bold
 hi Comment       ctermfg=241  guifg=#606060  ctermbg=bg   guibg=bg       cterm=none  gui=none
 hi Todo          ctermfg=254  guifg=#e4e4e4  ctermbg=166  guibg=#df5f00  cterm=none  gui=none
-hi Underlined    ctermfg=125  guifg=#af005f  ctermbg=bg   guibg=bg  cterm=underline  gui=underline
+hi Underlined    ctermfg=fg   guifg=fg       ctermbg=bg   guibg=bg  cterm=underline  gui=underline
 hi Error         ctermfg=196  guifg=#ff0000  ctermbg=bg   guibg=bg       cterm=bold  gui=bold
 hi cPreCondit    ctermfg=131  guifg=#af5f5f  ctermbg=bg   guibg=bg       cterm=bold  gui=bold
 hi diffRemoved   ctermfg=131  guifg=#af5f5f  ctermbg=bg   guibg=bg       cterm=bold  gui=bold
